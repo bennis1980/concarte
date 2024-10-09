@@ -1,14 +1,12 @@
 import { Config } from "./config.types";
 
 const config: Config = {
-  eventName: "Octocon",
+  eventName: "Temple of Rust",
   locale: "en",
   description: `
-    An interactive map of the Octocon venue.
+    An interactive map of the Temple of Rust.
 
-    Octocon 2024 is taking place in the Gibson Hotel on 5th and 6th October.
-
-    More details at [Octocon 2024](http://2024.octocon.com)
+    Map by [Jog Brogzin](http://jogbrogzin.com)
   `,
   attributions: [
     "Map designed by [Jog Brogzin](https://www.jogbrogzin.com/)",
@@ -25,54 +23,52 @@ const config: Config = {
     disabled: "#cbd5e1",
   },
   map: {
-    src: "/Octocon_2024_Map_4K.jpg",
+    src: "/SQ043 Temple of Rust.jpg",
     rooms: [
       {
         id: "entrance",
         label: "Entrance",
         aliases: ["Entrance"],
         description: `
-          # Main hotel entrance
+          # Descend down through the well
         `,
         area: [
-          [3186, 1428],
-          [3273, 1461],
-          [3248, 1518],
-          [3165, 1473],
+          [548, 2112],
+          [1170, 1770],
+          [1526, 1984],
+          [893, 2336],
         ],
       },
       {
-        id: "bar",
-        label: "Main hotel bar",
-        aliases: ["Food & Drink"],
+        id: "torturechamber",
+        label: "Torture Chamber",
+        aliases: ["Torture Chamber"],
         description: `
-          A place to sit and chat with friends, or to grab a bite to eat. There
-          will be a selection of food and drink available, including vegan and
-          gluten free options.
+          Contains torture devices in various states of disrepair.
         `,
         area: [
-          [2598, 1755],
-          [2871, 1899],
-          [2592, 2523],
-          [2205, 2355],
+          [362, 1439],
+          [984, 1097],
+          [1340, 1303],
+          [727, 1638],
         ],
       },
       {
-        id: "concourse",
-        label: "Concourse",
-        aliases: ["Concourse"],
+        id: "idol",
+        label: "Idol Room",
+        aliases: ["Idol Room"],
         description: `
-          Open space for social interaction and fan tables.
+          Large stone idol with a sinister face stands here.
         `,
         area: [
-          [1749, 1641],
-          [2235, 1194],
-          [2604, 1365],
-          [2765, 1176],
-          [3201, 1371],
-          [2976, 1752],
-          [2262, 1326],
-          [1854, 1752],
+          [1289, 1760],
+          [1289, 1635],
+          [1543, 1490],
+          [1783, 1490],
+          [2037, 1635],
+          [2037, 1760],
+          [1783, 1919],
+          [1543, 1919],
         ],
       },
       {
