@@ -72,193 +72,86 @@ const config: Config = {
         ],
       },
       {
-        id: "regdesk",
-        label: "Registration Desk",
-        aliases: ["Reg desk"],
+        id: "mausoleum",
+        label: "Mausoleum",
+        aliases: ["Mausoleum"],
         description: `
-          Collect your badge here.
+          Bones and dust.
         `,
         area: [
-          [2352, 1698],
-          [2463, 1584],
-          [2511, 1617],
-          [2409, 1710],
+          [1796, 1415],
+          [2436, 1070],
+          [2774, 1270],
+          [2165, 1618],
         ],
       },
       {
-        id: "chatarea",
-        label: "Chat Area",
-        aliases: ["Fan Chats"],
+        id: "summoner",
+        label: "Summoner's Chamber",
+        aliases: ["Summoner"],
         description: `
-          Table next to restaurant for fan chats and author meetups.
+          A pentagram with candles is in the centre of the room, with an altar to the side.
         `,
         area: [
-          [2643, 1575],
-          [2763, 1620],
-          [2676, 1737],
-          [2595, 1698],
+          [1607, 2085],
+          [2094, 1814],
+          [2642, 2136],
+          [2199, 3080],
         ],
       },
       {
-        id: "toilets",
-        label: "Toilets",
-        aliases: ["Toilets"],
+        id: "library",
+        label: "Library",
+        aliases: ["Library"],
         description: `
-          Toilets including accessible toilet.
+          Bookcases line the walls of this room, with a raised reading platform at the side.
         `,
         area: [
-          [1308, 1734],
-          [1341, 1692],
-          [1410, 1692],
-          [1455, 1677],
-          [1482, 1710],
-          [1572, 1848],
-          [1623, 1806],
-          [1653, 1833],
-          [1677, 1932],
-          [1734, 1995],
-          [1806, 1974],
-          [1851, 2001],
-          [1848, 2061],
-          [1833, 2112],
-          [1794, 2169],
-          [1725, 2181],
-          [1638, 2100],
-          [1665, 2043],
-          [1599, 1986],
-          [1497, 1977],
-          [1464, 1923],
-          [1497, 1857],
-          [1464, 1812],
-          [1338, 1794],
+          [1109, 2373],
+          [1607, 2085],
+          [2199, 3080],
+          [1658, 2691],
         ],
       },
       {
-        id: "stairs-l1",
-        label: "Stairs (level 1)",
-        area: [
-          [1905, 1119],
-          [1944, 1092],
-          [2061, 1137],
-          [2013, 1185],
-        ],
-      },
-      {
-        id: "lifts",
-        label: "Lifts",
+        id: "statue",
+        label: "Statue Room",
         description: `
-          Lifts to level 2 and bedrooms.
+          A statue of a woman holding a harp stands in the centre of this circular room.
         `,
         area: [
-          [1923, 1626],
-          [1983, 1596],
-          [2235, 1635],
-          [2316, 1686],
-          [2316, 1758],
-          [2193, 1893],
-          [2130, 1863],
-          [1935, 1686],
+          [1976, 2633],
+          [2487, 2390],
+          [2971, 2667],
+          [2439, 2948],
         ],
       },
       {
-        id: "mainprog",
-        label: "Main Programme (Stratocaster)",
-        aliases: ["Programme", "Stratocaster"],
+        id: "storage",
+        label: "Storage Room",
+        aliases: ["Storage Room"],
         description: `
-          [Programme schedule](https://prog.octocon.com/)
+          Weapons racks and chests fill this room.
         `,
         area: [
-          [1113, 804],
-          [1620, 560],
-          [1960, 700],
-          [1437, 1026],
+          [2602, 2965],
+          [2974, 2755],
+          [3326, 2968],
+          [2954, 3165],
         ],
       },
       {
-        id: "committee",
-        label: "Committee Room (Broadcaster)",
-        aliases: ["Committee", "Broadcaster"],
+        id: "jail",
+        label: "Jail",
+        aliases: ["Jail"],
         description: `
-          Office space for committee use.
+          Cages contain the bones of long dead prisoners.
         `,
         area: [
-          [1935, 813],
-          [2034, 741],
-          [2292, 840],
-          [2193, 930],
-        ],
-      },
-      {
-        id: "panelroom2",
-        label: "Panel Room 2 (Alhambra)",
-        aliases: ["Panel room 2", "Alhambra"],
-        description: `
-          [Programme schedule](https://prog.octocon.com)
-        `,
-        area: [
-          [2157, 1017],
-          [2340, 864],
-          [2745, 1026],
-          [2586, 1227],
-        ],
-      },
-      {
-        id: "tradehall",
-        label: "Trade Hall",
-        description: `
-          A selection of dealers and fan tables will be available for you to
-          browse. Please note that some dealers may only accept cash.
-
-          # Opening times
-
-          Saturday: 10am-6pm
-
-          Sunday: 10am-6pm
-        `,
-        area: [
-          [720, 1000],
-          [1050, 840],
-          [1410, 1050],
-          [1030, 1280],
-        ],
-      },
-      {
-        id: "stairs-l2",
-        label: "Stairs (level 2)",
-        area: [
-          [1938, 528],
-          [1986, 489],
-          [2118, 534],
-          [2094, 561],
-        ],
-      },
-      {
-        id: "quiet",
-        label: "Quiet room (Rickenbacker)",
-        aliases: ["Quiet", "Rickenbacker"],
-        description: `
-          A place where you may do a jigsaw or read a book/electronic item, but
-          may not make phone calls.
-        `,
-        area: [
-          [1938, 309],
-          [2106, 237],
-          [2250, 276],
-          [2082, 366],
-        ],
-      },
-      {
-        id: "workshop",
-        label: "Workshops (Cordoba)",
-        aliases: ["Workshops", "Cordoba"],
-        description: `
-          Workshops and interactive activities.
-        `,
-        area: [
-          [2136, 378],
-          [2301, 291],
-          [2754, 402],
-          [2604, 510],
+          [2923, 2353],
+          [3313, 2153],
+          [3651, 2356],
+          [3282, 2569],
         ],
       },
     ],
